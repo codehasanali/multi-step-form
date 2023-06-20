@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.wrapper > input[type="text"] {
+  font-weight: 600;
+  padding: 1em;
+  border-radius: 8px;
+  border: 1px hsl(229, 24%, 87%) solid;
+  margin: 0.5em 0 1.4em 0;
+  font-size: 16px;
+}
+
+.wrapper > input[type="text"]:focus {
+  outline: none;
+  border: 1px hsl(231, 11%, 63%) solid;
+}
+
+.wrapper > input[type="text"]::placeholder {
+  color: hsl(229, 6%, 66%);
+  font-weight: 500;
+}

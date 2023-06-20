@@ -1,0 +1,21 @@
+.navWrapper {
+  display: flex;
+  justify-content: flex-end;
+  height: -webkit-fill-available;
+}
+
+.invalid {
+  color: red;
+  border: 1px solid red !important;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.inputLabel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

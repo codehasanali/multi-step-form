@@ -1,0 +1,54 @@
+.selectWrapper {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 0.7em;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.active {
+    border: 1px solid hsl(243, 37%, 45%);
+    transition: all 0.2s ease-in-out;
+}
+
+.selectWrapper input {
+    cursor: pointer;
+}
+
+.infoWrapper {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1em;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.textWrapper > p {
+    margin: 0;
+}
+
+.selectWrapper > p {
+    margin: 0;
+}
+
+.price {
+    color: hsl(243, 37%, 45%);
+    font-weight: bold;
+}
+
+.name {
+    font-weight: bold;
+    margin-bottom: 0.2em !important;
+}
+
+.desc {
+    font-size: 0.8em;
+    color: hsl(231, 11%, 63%);
+}

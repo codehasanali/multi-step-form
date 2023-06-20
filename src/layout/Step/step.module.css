@@ -1,0 +1,21 @@
+.title {
+  font-weight: lighter;
+  font-size: 0.8em;
+  margin-bottom: 0.3em !important;
+}
+
+.description {
+  font-weight: 700;
+}
+
+.textContainer {
+  margin-left: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textContainer > p {
+  margin: 0;
+  color: white;
+}

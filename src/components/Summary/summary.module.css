@@ -1,0 +1,77 @@
+.summaryWrapper {
+    display: flex;
+    background-color: hsl(217, 100%, 97%);
+    padding: 1em;
+    border-radius: 1em;
+    flex-direction: column;
+}
+
+.summaryWrapper p {
+    margin: 0;
+}
+
+.changeButton {
+    background: transparent;
+    text-decoration: underline;
+    color: hsl(243, 100%, 62%);
+    font-weight: 400;
+    font-family: "Ubuntu", sans-serif;
+    padding: 0;
+    cursor: pointer;
+}
+
+.planInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addonsInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.addonsElements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5em;
+    font-size: 14px;
+    color: hsl(231, 11%, 63%);
+}
+
+.totalWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: center;
+}
+
+.totalText {
+    font-size: 14px;
+    color: hsl(231, 11%, 63%);
+}
+
+.totalPrice {
+    font-size: 18px;
+    color: hsl(243, 100%, 62%);
+    font-weight: 700;
+    margin: 0;
+}
+
+.line {
+    margin-top: 1em;
+    width: 100%;
+    border: 1px solid hsl(217, 100%, 97%);
+}
+
+.emptyAddons {
+    font-size: 14px;
+    color: hsl(231, 11%, 63%);
+    margin: 0;
+}
+
+.price {
+    font-weight: bold;
+    color: hsl(213, 96%, 18%);
+}
