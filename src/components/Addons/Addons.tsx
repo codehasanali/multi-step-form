@@ -31,7 +31,6 @@ const Addons = ({
   setProperlyFilled,
 }: Props) => {
   const dispatch: AppDispatch = useDispatch();
-  // list of addons
   const addonsList = [
     {
       name: "Online service",
